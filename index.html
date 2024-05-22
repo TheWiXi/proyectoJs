@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus e-Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="Js/main.js" defer></script>
@@ -13,12 +14,12 @@
     <div class="wrapper">
         <aside>
             <header>
-                <h1 class="logo">Campus e-Commerce</h1>
+                <h1 class="logo">Campus Shop</h1>
             </header>
             <nav>
-                <ul>
+                <ul class="menu">
                     <li>
-                        <button class="button-category"><i class="bi bi-hand-index-fill"></i>Todos los productos</button>
+                        <button class="button-category active"><i class="bi bi-hand-index-fill"></i>Todos los productos</button>
                     </li>
                     <li>
                         <button class="button-category"><i class="bi bi-hand-index"></i>Abrigos</button>
@@ -30,36 +31,35 @@
                         <button class="button-category"><i class="bi bi-hand-index"></i>Pantalones</button>
                     </li>
                     <li>
-                        <button class="button-category"><i class="bi bi-cart-fill"></i>Carrito <span class="number">0</span></button>
+                        <button class="button-category cart-button"><i class="bi bi-cart-fill"></i>Carrito <span class="counting-cart">0</span></button>
                     </li>
                 </ul>
             </nav>
             <footer>
                 <div class="copyright">
                     <i class="bi bi-c-circle"></i>
-                    <p class="footer-text">2024-William Meza</p>
+                    <p class="footer-text">-2024-William Meza</p>
                 </div>
             </footer>
         </aside>
         <main>
-            <h2 class="main-tittle"></h2>
+            <h2 class="main-tittle">Todos los productos</h2>
             <div class="product-container">
                 <!-- divExample -->
                 <div class="product">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="Abrigo01">
+                    <img class="product-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="Abrigo01">
                     <div class="product-details">
                         <div class="product-tittle">Abrigo01</div>
-                        <p class="product price">$1000</p>
+                        <p class="product-price">$1000</p>
                         <button class="product-add">Agregar</button>
                     </div>
                 </div>
-                <!-- divExample2 -->
                 <div class="product">
-                    <img class="product__img" src="https://http2.mlstatic.com/D_NQ_NP_2X_904140-MCO51843801912_102022-F.webp" alt="producto01">
-                    <div class="product__description">
-                        <h3 class="product__tittle">Producto 2</h3>
-                        <p class="product__cost">$100.000</p>
-                        <button class="product__add">Agregar</button>
+                    <img class="product-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="Abrigo01">
+                    <div class="product-details">
+                        <div class="product-tittle">Abrigo01</div>
+                        <p class="product-price">$1000</p>
+                        <button class="product-add">Agregar</button>
                     </div>
                 </div>
             </div>
